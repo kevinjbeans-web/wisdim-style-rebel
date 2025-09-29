@@ -58,6 +58,20 @@ export default {
           ring: "hsl(var(--sidebar-ring))",
         },
       },
+      backgroundImage: {
+        'gradient-gothic': 'var(--gradient-gothic)',
+        'gradient-neon': 'var(--gradient-neon)',
+        'gradient-electric': 'var(--gradient-electric)',
+      },
+      boxShadow: {
+        'gothic': 'var(--shadow-gothic)',
+        'neon': 'var(--shadow-neon)',
+        'electric': 'var(--shadow-electric)',
+      },
+      fontFamily: {
+        'gothic': ['Cinzel', 'serif'],
+        'punk': ['Orbitron', 'monospace'],
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
